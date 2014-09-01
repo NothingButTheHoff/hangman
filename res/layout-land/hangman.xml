@@ -1,0 +1,14 @@
+
+<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:name="com.pefi.Hangman.GameFragment" android:id="@+id/fragment"
+              android:layout_gravity="center_horizontal" android:layout_weight="1"/>
+    <fragment android:layout_width="200dp"
+              android:layout_height="fill_parent"
+              android:name="com.pefi.Hangman.KeyboardFragment" android:id="@+id/fragment2"
+              android:layout_gravity="center_horizontal|top"/>
+</LinearLayout>
