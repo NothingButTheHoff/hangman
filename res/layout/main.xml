@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:focusable="true">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/logo" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" android:text="@string/logo"/>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:gravity="center" android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_button"
+                android:id="@+id/button_start"
+                android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                android:onClick="startGame"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_button"
+                android:id="@+id/button_settings" android:layout_below="@+id/button_start" android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                android:onClick="openSettings"/>
+    </RelativeLayout>
+</RelativeLayout>
