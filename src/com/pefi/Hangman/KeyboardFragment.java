@@ -5,14 +5,15 @@ import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.view.View.OnClickListener;
 
 /**
  * Created by pererikfinstad on 01/09/14.
  */
 public class KeyboardFragment extends Fragment implements OnClickListener {
+    private final static String TAG = "KeyboardFragment";
     OnItemSelectedListener mCallback;
 
 
@@ -20,20 +21,72 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.keyboard, container, false);
 
-        Button b = (Button) view.findViewById(R.id.button);
+
+
+
+        Button b = (Button) view.findViewById(R.id.key1);
         b.setOnClickListener(this);
+        Button b2 = (Button) view.findViewById(R.id.key2);
+        b2.setOnClickListener(this);
+        Button b3 = (Button) view.findViewById(R.id.key3);
+        b3.setOnClickListener(this);
+        Button b4 = (Button) view.findViewById(R.id.key4);
+        b4.setOnClickListener(this);
+        Button b5 = (Button) view.findViewById(R.id.key5);
+        b5.setOnClickListener(this);
+        Button b6 = (Button) view.findViewById(R.id.key6);
+        b6.setOnClickListener(this);
+        Button b7 = (Button) view.findViewById(R.id.key7);
+        b7.setOnClickListener(this);
+        Button b8 = (Button) view.findViewById(R.id.key8);
+        b8.setOnClickListener(this);
+        Button b9 = (Button) view.findViewById(R.id.key9);
+        b9.setOnClickListener(this);
+        Button b10 = (Button) view.findViewById(R.id.key10);
+        b10.setOnClickListener(this);
+        Button b11 = (Button) view.findViewById(R.id.key11);
+        b11.setOnClickListener(this);
+        Button b12 = (Button) view.findViewById(R.id.key12);
+        b12.setOnClickListener(this);
+        Button b13 = (Button) view.findViewById(R.id.key13);
+        b13.setOnClickListener(this);
+        Button b14 = (Button) view.findViewById(R.id.key14);
+        b14.setOnClickListener(this);
+        Button b15 = (Button) view.findViewById(R.id.key15);
+        b15.setOnClickListener(this);
+        Button b16 = (Button) view.findViewById(R.id.key16);
+        b16.setOnClickListener(this);
+        Button b17 = (Button) view.findViewById(R.id.key17);
+        b17.setOnClickListener(this);
+        Button b18 = (Button) view.findViewById(R.id.key18);
+        b18.setOnClickListener(this);
+        Button b19 = (Button) view.findViewById(R.id.key19);
+        b19.setOnClickListener(this);
+        Button b20 = (Button) view.findViewById(R.id.key20);
+        b20.setOnClickListener(this);
+        Button b21 = (Button) view.findViewById(R.id.key21);
+        b21.setOnClickListener(this);
+        Button b22 = (Button) view.findViewById(R.id.key22);
+        b22.setOnClickListener(this);
+        Button b23 = (Button) view.findViewById(R.id.key23);
+        b23.setOnClickListener(this);
+        Button b24 = (Button) view.findViewById(R.id.key24);
+        b24.setOnClickListener(this);
+        Button b25 = (Button) view.findViewById(R.id.key25);
+        b25.setOnClickListener(this);
+        Button b26 = (Button) view.findViewById(R.id.key26);
+        b26.setOnClickListener(this);
+        Button b27 = (Button) view.findViewById(R.id.key27);
+        b27.setOnClickListener(this);
+        Button b28 = (Button) view.findViewById(R.id.key28);
+        b28.setOnClickListener(this);
+        Button b29 = (Button) view.findViewById(R.id.key29);
+        b29.setOnClickListener(this);
 
         return view;
     }
 
-
-
-
-
-
-
-
-    //interface that must be implemented in the host activity
+    //this interface must be implemented in the host activity
     public interface OnItemSelectedListener {
         public void onLetterSelected(int i);
     }
@@ -59,14 +112,96 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.button:
-
+            case R.id.key1:
                 onKeyboardClick(1);
                 break;
+            case R.id.key2:
+                onKeyboardClick(2);
+                break;
+            case R.id.key3:
+                onKeyboardClick(3);
+                break;
+            case R.id.key4:
+                onKeyboardClick(4);
+                break;
+            case R.id.key5:
+                onKeyboardClick(5);
+                break;
+            case R.id.key6:
+                onKeyboardClick(6);
+                break;
+            case R.id.key7:
+                onKeyboardClick(7);
+                break;
+            case R.id.key8:
+                onKeyboardClick(8);
+                break;
+            case R.id.key9:
+                onKeyboardClick(9);
+                break;
+            case R.id.key10:
+                onKeyboardClick(10);
+                break;
+            case R.id.key11:
+                onKeyboardClick(11);
+                break;
+            case R.id.key12:
+                onKeyboardClick(12);
+                break;
+            case R.id.key13:
+                onKeyboardClick(13);
+                break;
+            case R.id.key14:
+                onKeyboardClick(14);
+                break;
+            case R.id.key15:
+                onKeyboardClick(15);
+                break;
+            case R.id.key16:
+                onKeyboardClick(16);
+                break;
+            case R.id.key17:
+                onKeyboardClick(17);
+                break;
+            case R.id.key18:
+                onKeyboardClick(18);
+                break;
+            case R.id.key19:
+                onKeyboardClick(19);
+                break;
+            case R.id.key20:
+                onKeyboardClick(20);
+                break;
+            case R.id.key21:
+                onKeyboardClick(21);
+                break;
+            case R.id.key22:
+                onKeyboardClick(22);
+                break;
+            case R.id.key23:
+                onKeyboardClick(23);
+                break;
+            case R.id.key24:
+                onKeyboardClick(24);
+                break;
+            case R.id.key25:
+                onKeyboardClick(25);
+                break;
+            case R.id.key26:
+                onKeyboardClick(26);
+                break;
+            case R.id.key27:
+                onKeyboardClick(27);
+                break;
+            case R.id.key28:
+                onKeyboardClick(28);
+                break;
+            case R.id.key29:
+                onKeyboardClick(29);
+                break;
+
+
         }
-    }
-
-
-
+    } //end of switch
 
 }//end of class
