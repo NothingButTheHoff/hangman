@@ -1,14 +1,20 @@
-
+<!--  HORISONTAL  -->
 <LinearLayout
-        android:orientation="horizontal"
+        xmlns:tools="http://schemas.android.com/tools" android:orientation="horizontal"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
-    <fragment android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:layout_width="wrap_content"
               android:layout_height="fill_parent"
-              android:name="com.pefi.Hangman.GameFragment" android:id="@+id/fragment"
-              android:layout_gravity="center_horizontal" android:layout_weight="1"/>
+              android:name="com.pefi.Hangman.GameFragment"
+              android:id="@+id/game_fragment"
+              android:layout_gravity="center_horizontal"
+              android:layout_weight="1"
+              tools:layout="@layout/game"/>
     <fragment android:layout_width="200dp"
               android:layout_height="fill_parent"
-              android:name="com.pefi.Hangman.KeyboardFragment" android:id="@+id/fragment2"
-              android:layout_gravity="center_horizontal|top"/>
+              android:name="com.pefi.Hangman.KeyboardFragment"
+              android:id="@+id/keyboard_fragment"
+              android:layout_gravity="center_horizontal|top"
+              tools:layout="@layout/keyboard"/>
 </LinearLayout>

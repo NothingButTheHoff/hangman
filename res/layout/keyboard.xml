@@ -3,11 +3,13 @@
 <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
-        android:background="#ffaec9ff">
-    <TextView
+        android:background="#44444444">
+    <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Keyboard"
-            android:id="@+id/textView" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+            android:text="Test"
+            android:id="@+id/button"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:onClick=""/>
 </RelativeLayout>

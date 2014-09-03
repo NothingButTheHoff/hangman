@@ -17,7 +17,6 @@ import java.util.Locale;
  */
 public class SettingsActivity extends Activity implements AdapterView.OnItemSelectedListener {
 
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,20 +54,16 @@ public class SettingsActivity extends Activity implements AdapterView.OnItemSele
                 getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
                 break;
             default:
-                locale = new Locale("en");
-                Locale.setDefault(locale);
-                config = new Configuration();
-                config.locale = locale;
-                getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+                //locale = new Locale("en");
+                //Locale.setDefault(locale);
+                //config = new Configuration();
+                //config.locale = locale;
+                //getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
         }
     }
 
     public void onNothingSelected(AdapterView<?> parent) {
-        Locale locale = new Locale("en");
-        Locale.setDefault(locale);
-        Configuration config = new Configuration();
-        config.locale = locale;
-        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+
     }
 
 

@@ -3,7 +3,6 @@
     <!-- app strings-->
     <string name="app_name">Hangman</string>
 
-
     <!-- Main activity-->
 
     <string name="logo">Hangman</string>
@@ -15,5 +14,6 @@
 
     <!--  Hangman Activity   -->
 
-    <string name="game_over">Game Over!</string>
+    <string name="game_over">Game over!</string>
+    <string name="win">You win!</string>
 </resources>
