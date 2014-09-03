@@ -34,6 +34,7 @@ public class SettingsActivity extends Activity implements AdapterView.OnItemSele
 
     }
 
+
     public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
         Locale locale;
         Configuration config;
