@@ -1,13 +1,14 @@
 <!-- KEYBOARD FOR PORTRAIT MODE-->
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:id="@+id/tableView"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:stretchColumns="*"
-             android:weightSum="0" >
+     xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/tableView"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:stretchColumns="*"
+     android:weightSum="0" >
 
     <TableRow
+        android:id="@+id/row1"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
@@ -68,6 +69,7 @@
 
 
     <TableRow
+            android:id="@+id/row2"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
 
@@ -125,6 +127,7 @@
 
 
     <TableRow
+        android:id="@+id/row3"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
@@ -180,6 +183,7 @@
 
 
     <TableRow
+            android:id="@+id/row4"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
         <Button
