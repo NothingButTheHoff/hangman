@@ -9,11 +9,12 @@
     <string name="start_button">Start</string>
     <string name="settings_button">Settings</string>
 
-
-
-
     <!--  Hangman Activity   -->
 
     <string name="game_over">Game over!</string>
     <string name="win">You win!</string>
+    <string name="new_game">New Game</string>
+    <string name="exit">Exit</string>
+    <string name="next_word">Next word</string>
+    <string name="new_word">New word</string>
 </resources>

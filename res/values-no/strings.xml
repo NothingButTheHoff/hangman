@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- app strings-->
+    <string name="app_name">Hangman</string>
+
      <!-- main activity-->
 
     <string name="logo">Hangman</string>
-    <string name="start_button">Start</string>
+    <string name="start_button">Spill</string>
     <string name="settings_button">Innstillinger</string>
+
+    <!--  Hangman Activity   -->
+
+    <string name="game_over">Du tapte!</string>
+    <string name="win">Du vant!</string>
+    <string name="new_game">Nytt spill?</string>
+    <string name="exit">Avslutt</string>
 </resources>
