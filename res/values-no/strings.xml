@@ -11,7 +11,7 @@
 
     <!--  Hangman Activity   -->
 
-    <string name="game_over">Du tapte!</string>
+    <string name="lose">Du tapte!</string>
     <string name="win">Du vant!</string>
     <string name="new_game">Nytt spill?</string>
     <string name="exit">Avslutt</string>

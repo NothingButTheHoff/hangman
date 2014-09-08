@@ -18,8 +18,8 @@
 
     <!--  Hangman Activity   -->
 
-    <string name="game_over">Game over</string>
-    <string name="win">You win</string>
+    <string name="lose">You lose!</string>
+    <string name="win">You win!</string>
     <string name="new_game">New Game</string>
     <string name="exit">Exit</string>
     <string name="next_word">Next word</string>
