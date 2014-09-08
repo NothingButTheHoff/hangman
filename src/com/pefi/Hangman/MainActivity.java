@@ -1,6 +1,8 @@
 package com.pefi.Hangman;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -21,6 +23,17 @@ public class MainActivity extends Activity {
     public void startGame(View view) {
         Intent intent = new Intent(this, HangmanActivity.class);
         startActivity(intent);
+    }
+
+    public void showRules(View view){
+        new AlertDialog.Builder(this)
+                .setTitle(R.string.rules_button)
+                .setMessage(R.string.rules)
+                .setPositiveButton(R.string.close, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                }).show();
     }
 
     public void openSettings(View view) {

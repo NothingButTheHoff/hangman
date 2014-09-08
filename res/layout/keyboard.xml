@@ -13,55 +13,57 @@
         android:layout_height="fill_parent">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="a"
+            android:text="A"
             android:tag="1"
             android:id="@+id/key1"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="b"
+            android:text="B"
             android:tag="2"
             android:id="@+id/key2"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="c"
+            android:text="C"
             android:tag="3"
             android:id="@+id/key3"
             android:layout_weight="1"/>
+
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="d"
+            android:text="D"
             android:tag="4"
             android:id="@+id/key4"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="e"
+            android:text="E"
             android:tag="5"
             android:id="@+id/key5"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:tag="6"
             android:id="@+id/key6"
-            android:text="f" />
+            android:text="F" />
+
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="g"
+            android:text="G"
             android:tag="7"
             android:id="@+id/key7"
             android:layout_weight="1"/>
@@ -74,53 +76,54 @@
             android:layout_height="fill_parent">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="h"
+            android:text="H"
             android:tag="8"
             android:id="@+id/key8"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="i"
+            android:text="I"
             android:tag="9"
             android:id="@+id/key9"
             android:layout_weight="1"/>
 
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="j"
+            android:text="J"
             android:id="@+id/key10"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="k"
+            android:text="K"
             android:id="@+id/key11"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="l"
+            android:text="L"
             android:id="@+id/key12"
             android:layout_weight="1"/>
+
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="m"
+            android:text="M"
             android:id="@+id/key13"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="n"
+            android:text="N"
             android:id="@+id/key14"
             android:layout_weight="1"/>
     </TableRow>
@@ -132,51 +135,52 @@
         android:layout_height="fill_parent">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="o"
+            android:text="O"
             android:id="@+id/key15"
             android:layout_weight="1"/>
+
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="p"
+            android:text="P"
             android:id="@+id/key16"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="q"
+            android:text="Q"
             android:id="@+id/key17"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="r"
+            android:text="R"
             android:id="@+id/key18"
             android:layout_weight="1"/>
 
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="s"
+            android:text="S"
             android:id="@+id/key19"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="t"
+            android:text="T"
             android:id="@+id/key20"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="u"
+            android:text="U"
             android:id="@+id/key21"
             android:layout_weight="1"/>
     </TableRow>
@@ -186,60 +190,62 @@
             android:id="@+id/row4"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
+
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="v"
+            android:text="V"
             android:id="@+id/key22"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="w"
+            android:text="W"
             android:id="@+id/key23"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="x"
+            android:text="X"
             android:id="@+id/key24"
             android:layout_weight="1"/>
+
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="y"
+            android:text="Y"
             android:id="@+id/key25"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="z"
+            android:text="Z"
             android:id="@+id/key26"
             android:layout_weight="1"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="æ"
+            android:text="Æ"
             android:id="@+id/key27"
             android:layout_weight="1"/>
+
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
-            android:text="ø"
+            android:text="Ø"
             android:id="@+id/key28"
             android:layout_weight="1"/>
 
-
         <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="å"
-                android:id="@+id/key29"
-                android:layout_weight="1"/>
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="Å"
+            android:id="@+id/key29"
+            android:layout_weight="1"/>
     </TableRow>
 
 </TableLayout>

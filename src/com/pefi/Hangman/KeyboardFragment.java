@@ -24,6 +24,7 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
 
 
 
+
         Button b = (Button) view.findViewById(R.id.key1);
         b.setOnClickListener(this);
         Button b2 = (Button) view.findViewById(R.id.key2);
