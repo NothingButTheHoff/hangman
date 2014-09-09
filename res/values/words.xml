@@ -4,7 +4,7 @@
         <item>apple</item>
         <item>hedgehog</item>
         <item>flower</item>
-        <item>science</item>
+      <!--  <item>science</item>
         <item>shadow</item>
         <item>trousers</item>
         <item>house</item>
@@ -22,6 +22,6 @@
         <item>garage</item>
         <item>bedroom</item>
         <item>couch</item>
-        <item>sunshine</item>
+        <item>sunshine</item>-->
     </string-array>
 </resources>

@@ -25,7 +25,7 @@
     <string name="next_word">Next word</string>
     <string name="new_word">New word</string>
     <string name="congrats">Congratulations!</string>
-    <string name="no_more_words">You have tried all of the words! Good job!</string>
+    <string name="no_more_words">No more words!</string>
     <string name="play_again">Do you want to play again?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
