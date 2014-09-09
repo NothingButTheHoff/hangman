@@ -26,11 +26,10 @@
                 android:layout_height="wrap_content"
                 android:text="@string/start_button"
                 android:id="@+id/button_start"
-                android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:background="@android:color/transparent"
                 android:onClick="startGame"
-                android:layout_marginBottom="40dp"/>
+                />
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -38,16 +37,25 @@
                 android:id="@+id/button_rules"
                 android:background="@android:color/transparent"
                 android:onClick="showRules"
-                android:layout_centerVertical="true"
-                android:layout_alignStart="@id/button_rules"/>
+                android:layout_alignStart="@id/button_rules" android:layout_centerHorizontal="true"
+                android:layout_below="@+id/button_start"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/settings_button"
                 android:id="@+id/button_settings"
-                android:layout_below="@+id/button_start"
                 android:layout_centerHorizontal="true"
                 android:background="@android:color/transparent"
-                android:onClick="openSettings"/>
+                android:onClick="openSettings" android:layout_below="@+id/button_rules"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exit_button"
+                android:id="@+id/button_exit"
+                android:layout_below="@+id/button_settings"
+                android:background="@android:color/transparent"
+                android:layout_centerHorizontal="true"
+                android:onClick="killApp"
+                />
     </RelativeLayout>
 </RelativeLayout>

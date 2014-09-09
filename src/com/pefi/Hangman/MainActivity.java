@@ -36,8 +36,15 @@ public class MainActivity extends Activity {
                 }).show();
     }
 
+
     public void openSettings(View view) {
         Intent intent = new Intent(this, SettingsActivity.class);
         startActivity(intent);
+    }
+
+
+
+    public void killApp(View view) {
+        finish();
     }
 }

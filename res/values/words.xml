@@ -4,7 +4,7 @@
         <item>apple</item>
         <item>hedgehog</item>
         <item>flower</item>
-      <!--  <item>science</item>
+        <item>science</item>
         <item>shadow</item>
         <item>trousers</item>
         <item>house</item>
@@ -13,15 +13,24 @@
         <item>airplane</item>
         <item>barrel</item>
         <item>keyboard</item>
+        <item>stone</item>
+        <item>candle</item>
         <item>sausage</item>
         <item>powerplant</item>
         <item>bucket</item>
         <item>bicycle</item>
         <item>hemorrhoids</item>
         <item>stomach</item>
+        <item>tree</item>
         <item>garage</item>
         <item>bedroom</item>
         <item>couch</item>
-        <item>sunshine</item>-->
+        <item>sunshine</item>
+        <item>bookstore</item>
+        <item>scientist</item>
+        <item>nurse</item>
+        <item>intellectual</item>
+        <item>instrument</item>
+        <item>environment</item>
     </string-array>
 </resources>

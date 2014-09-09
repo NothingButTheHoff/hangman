@@ -14,14 +14,15 @@
                             guess, the letter will show on a line. If you guess wrong
                             a gallow and a hanging man will be drawn. You loose when the
                             man is hanged.</string>
+    <string name="exit_button">Exit</string>
     <string name="close">Close</string>
+
 
     <!--  Hangman Activity   -->
 
     <string name="lose">You lose!</string>
     <string name="win">You win!</string>
     <string name="new_game">New Game</string>
-    <string name="exit">Exit</string>
     <string name="next_word">Next word</string>
     <string name="new_word">New word</string>
     <string name="congrats">Congratulations!</string>
