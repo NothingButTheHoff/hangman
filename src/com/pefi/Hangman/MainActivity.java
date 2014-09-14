@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
 
 
 
-    public void killApp(View view) {
-        finish();
-    }
+    //public void killApp(View view) {
+    //    finish();
+    //}
 }

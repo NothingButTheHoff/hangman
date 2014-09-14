@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="word_array">
+        <item>eple</item>
+        <item>pinnsvin</item>
+        <item>blomst</item>
+        <item>forskning</item>
+        <item>skygge</item>
+        <item>bukse</item>
+        <item>hus</item>
+        <item>katt</item>
+        <item>tavle</item>
+        <item>fly</item>
+        <item>tønne</item>
+        <item>tastatur</item>
+        <item>stein</item>
+        <item>lys</item>
+        <item>pølse</item>
+        <item>kraftverk</item>
+        <item>bøtte</item>
+        <item>sykkel</item>
+        <item>hemoroider</item>
+        <item>mage</item>
+        <item>tre</item>
+        <item>garasje</item>
+        <item>soverom</item>
+        <item>sofa</item>
+        <item>solskinn</item>
+        <item>bokhandel</item>
+        <item>forsker</item>
+        <item>sykepleier</item>
+        <item>intellektuell</item>
+        <item>instrument</item>
+        <item>miljø</item>
+    </string-array>
+</resources>

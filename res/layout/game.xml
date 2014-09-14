@@ -28,4 +28,39 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="false"
             android:layout_alignParentEnd="false"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentEnd="true"
+            android:gravity="center_horizontal" android:padding="10dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/winsHead"
+                android:id="@+id/noOfWinsHead"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="false" android:gravity="center_horizontal"
+                android:layout_alignParentEnd="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/noOfWins"
+                android:layout_below="@+id/noOfWinsHead" android:layout_alignParentEnd="true"
+                android:gravity="center_horizontal" android:textColor="#ff00b852"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/losesHead"
+                android:id="@+id/noOfLostHead" android:layout_below="@+id/noOfWins" android:layout_alignParentEnd="true"
+                android:gravity="center_horizontal"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/noOfLost" android:layout_below="@+id/noOfLostHead" android:layout_alignParentEnd="true"
+                android:gravity="center_horizontal" android:textColor="#ffd00013"/>
+    </LinearLayout>
 </RelativeLayout>
