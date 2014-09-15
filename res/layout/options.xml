@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:id="@+id/button_lang_select"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="selectLanguage" android:background="@android:color/transparent" android:textSize="18sp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:id="@+id/back_to_menu"
+            android:layout_below="@+id/button_lang_select" android:layout_centerHorizontal="true" android:layout_marginTop="80dp"
+            android:background="#00000000"
+            android:onClick="backToMenu" android:textSize="18sp"/>
+</RelativeLayout>

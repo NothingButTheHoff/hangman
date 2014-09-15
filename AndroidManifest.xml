@@ -16,9 +16,10 @@
         </activity>
 
         <activity android:name=".HangmanActivity"/>
-                  <!--android:screenOrientation="sensorLandscape"-->
+        <!--android:screenOrientation="sensorLandscape"-->
 
 
         <activity android:name=".SettingsActivity"/>
+        <activity android:name=".OptionsActivity"/>
     </application>
 </manifest>

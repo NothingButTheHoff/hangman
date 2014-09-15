@@ -20,7 +20,7 @@
             android:textScaleX="2"
             android:textIsSelectable="false"
             android:layout_alignParentStart="true"
-            />
+            android:textSize="20sp"/>
     <ImageView
             android:layout_width="200dp"
             android:layout_height="266dp"
@@ -41,26 +41,26 @@
                 android:id="@+id/noOfWinsHead"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="false" android:gravity="center_horizontal"
-                android:layout_alignParentEnd="true"/>
+                android:layout_alignParentEnd="true" android:textSize="22sp"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/noOfWins"
                 android:layout_below="@+id/noOfWinsHead" android:layout_alignParentEnd="true"
-                android:gravity="center_horizontal" android:textColor="#ff00b852"/>
+                android:gravity="center_horizontal" android:textColor="#ff00b852" android:textSize="22sp"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/losesHead"
                 android:id="@+id/noOfLostHead" android:layout_below="@+id/noOfWins" android:layout_alignParentEnd="true"
-                android:gravity="center_horizontal"/>
+                android:gravity="center_horizontal" android:textSize="22sp"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/noOfLost" android:layout_below="@+id/noOfLostHead" android:layout_alignParentEnd="true"
-                android:gravity="center_horizontal" android:textColor="#ffd00013"/>
+                android:gravity="center_horizontal" android:textColor="#ffd00013" android:textSize="22sp"/>
     </LinearLayout>
 </RelativeLayout>

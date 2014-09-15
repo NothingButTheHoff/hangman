@@ -30,6 +30,6 @@
     <string name="play_again">Do you want to play again?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
-    <string name="winsHead">Wins</string>
+    <string name="winsHead">Won</string>
     <string name="losesHead">Lost</string>
 </resources>
