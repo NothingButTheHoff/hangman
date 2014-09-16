@@ -13,12 +13,15 @@ import android.widget.Button;
  * Created by pererikfinstad on 01/09/14.
  */
 public class KeyboardFragment extends Fragment implements OnClickListener {
-    private final static String TAG = "KeyboardFragment";
+    public final static String TAG = "KeyboardFragment";
     OnItemSelectedListener mCallback;
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+
         View view = inflater.inflate(R.layout.keyboard, container, false);
 
 
@@ -89,7 +92,7 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
 
     //this interface must be implemented in the host activity
     public interface OnItemSelectedListener {
-        public void onLetterSelected(String s);
+        public void onLetterSelected(String s, String id);
     }
 
     //binds the fragment interface onAttach
@@ -106,133 +109,138 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
 
 
     //When user selects a letter from the keyboard, send it to the host activity
-    public void onKeyboardClick(String s){
-        mCallback.onLetterSelected(s);
+    public void onKeyboardClick(String s, String id){
+
+        mCallback.onLetterSelected(s, id);
     }
+
+    public void generateKeyboard(){}
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.key1:
-                onKeyboardClick("a");
+                onKeyboardClick("a","key1");
                 v.setEnabled(false);
                 break;
             case R.id.key2:
-                onKeyboardClick("b");
+                onKeyboardClick("b", "key2");
                 v.setEnabled(false);
                 break;
             case R.id.key3:
-                onKeyboardClick("c");
+                onKeyboardClick("c", "key3");
                 v.setEnabled(false);
                 break;
             case R.id.key4:
-                onKeyboardClick("d");
+                onKeyboardClick("d", "key4");
                 v.setEnabled(false);
                 break;
             case R.id.key5:
-                onKeyboardClick("e");
+                onKeyboardClick("e","key5");
                 v.setEnabled(false);
                 break;
             case R.id.key6:
-                onKeyboardClick("f");
+                onKeyboardClick("f","key6");
                 v.setEnabled(false);
                 break;
             case R.id.key7:
-                onKeyboardClick("g");
+                onKeyboardClick("g", "key7");
                 v.setEnabled(false);
                 break;
             case R.id.key8:
-                onKeyboardClick("h");
+                onKeyboardClick("h","key8");
                 v.setEnabled(false);
                 break;
             case R.id.key9:
-                onKeyboardClick("i");
+                onKeyboardClick("i","key9");
                 v.setEnabled(false);
                 break;
             case R.id.key10:
-                onKeyboardClick("j");
+                onKeyboardClick("j","key10");
                 v.setEnabled(false);
                 break;
             case R.id.key11:
-                onKeyboardClick("k");
+                onKeyboardClick("k","key11");
                 v.setEnabled(false);
                 break;
             case R.id.key12:
-                onKeyboardClick("l");
+                onKeyboardClick("l","key12");
                 v.setEnabled(false);
                 break;
             case R.id.key13:
-                onKeyboardClick("m");
+                onKeyboardClick("m","key13");
                 v.setEnabled(false);
                 break;
             case R.id.key14:
-                onKeyboardClick("n");
+                onKeyboardClick("n","key14");
                 v.setEnabled(false);
                 break;
             case R.id.key15:
-                onKeyboardClick("o");
+                onKeyboardClick("o","key15");
                 v.setEnabled(false);
                 break;
             case R.id.key16:
-                onKeyboardClick("p");
+                onKeyboardClick("p","key16");
                 v.setEnabled(false);
                 break;
             case R.id.key17:
-                onKeyboardClick("q");
+                onKeyboardClick("q","key17");
                 v.setEnabled(false);
                 break;
             case R.id.key18:
-                onKeyboardClick("r");
+                onKeyboardClick("r","key18");
                 v.setEnabled(false);
                 break;
             case R.id.key19:
-                onKeyboardClick("s");
+                onKeyboardClick("s","key19");
                 v.setEnabled(false);
                 break;
             case R.id.key20:
-                onKeyboardClick("t");
+                onKeyboardClick("t","key20");
                 v.setEnabled(false);
                 break;
             case R.id.key21:
-                onKeyboardClick("u");
+                onKeyboardClick("u", "key21");
                 v.setEnabled(false);
                 break;
             case R.id.key22:
-                onKeyboardClick("v");
+                onKeyboardClick("v","key22");
                 v.setEnabled(false);
                 break;
             case R.id.key23:
-                onKeyboardClick("w");
+                onKeyboardClick("w","key23");
                 v.setEnabled(false);
                 break;
             case R.id.key24:
-                onKeyboardClick("x");
+                onKeyboardClick("x","key24");
                 v.setEnabled(false);
                 break;
             case R.id.key25:
-                onKeyboardClick("y");
+                onKeyboardClick("y","key25");
                 v.setEnabled(false);
                 break;
             case R.id.key26:
-                onKeyboardClick("z");
+                onKeyboardClick("z","key26");
                 v.setEnabled(false);
                 break;
             case R.id.key27:
-                onKeyboardClick("æ");
+                onKeyboardClick("æ","key27");
                 v.setEnabled(false);
                 break;
             case R.id.key28:
-                onKeyboardClick("ø");
+                onKeyboardClick("ø","key28");
                 v.setEnabled(false);
 
                 break;
             case R.id.key29:
-                onKeyboardClick("å");
+                onKeyboardClick("å","key29");
                 v.setEnabled(false);
                 break;
 
 
         }
     } //end of switch
+
+
 
 }//end of class
