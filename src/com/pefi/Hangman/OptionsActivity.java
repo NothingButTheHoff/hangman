@@ -69,10 +69,12 @@ public class OptionsActivity extends Activity {
     public void onBackPressed() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+
     }
 
     public void backToMenu(View v){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
-}
+
+} // end of class

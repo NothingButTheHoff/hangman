@@ -57,6 +57,8 @@ public class MainActivity extends Activity {
 
     @Override
     public void onBackPressed() {
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         android.os.Process.killProcess(android.os.Process.myPid());
         System.exit(1);
     }
