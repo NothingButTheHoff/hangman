@@ -12,7 +12,7 @@
               android:layout_weight="1"
               tools:layout="@layout/game"/>
     <fragment android:layout_width="220dp"
-              android:layout_height="wrap_content"
+              android:layout_height="fill_parent"
               android:name="com.pefi.Hangman.KeyboardFragment"
               android:id="@+id/keyboard_fragment"
               android:layout_gravity="center_horizontal|top"
