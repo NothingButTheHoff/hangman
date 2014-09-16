@@ -117,25 +117,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HangmanActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HangmanActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pefi/Hangman/HangmanActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7207" max-vertical-offset="7950">
-              <caret line="515" column="38" selection-start-line="515" selection-start-column="38" selection-end-line="515" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.094339624" vertical-offset="1275" max-vertical-offset="8730">
+              <caret line="100" column="66" selection-start-line="100" selection-start-column="66" selection-end-line="100" selection-end-column="66" />
               <folding>
-                <element signature="e#15226#15227#0" expanded="true" />
-                <element signature="e#15289#15290#0" expanded="true" />
+                <element signature="e#14694#14707#0" expanded="true" />
+                <element signature="e#14811#14829#0" expanded="true" />
+                <element signature="e#15534#15546#0" expanded="true" />
+                <element signature="e#15648#15666#0" expanded="true" />
+                <element signature="e#16351#16373#0" expanded="true" />
+                <element signature="e#16403#16422#0" expanded="true" />
+                <element signature="e#16459#16471#0" expanded="true" />
+                <element signature="e#16925#16936#0" expanded="true" />
+                <element signature="e#17053#17054#0" expanded="true" />
+                <element signature="e#17116#17117#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="words.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/values/words.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4473161" vertical-offset="0" max-vertical-offset="615">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -180,8 +178,8 @@
         <option value="$PROJECT_DIR$/res/layout/list.xml" />
         <option value="$PROJECT_DIR$/res/layout/options.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/com/pefi/Hangman/HangmanActivity.java" />
         <option value="$PROJECT_DIR$/res/values/words.xml" />
+        <option value="$PROJECT_DIR$/src/com/pefi/Hangman/HangmanActivity.java" />
       </list>
     </option>
   </component>
@@ -631,7 +629,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18597998" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32585752" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.323219" sideWeight="0.6030043" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.323219" sideWeight="0.6030043" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1151,22 +1149,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pefi/Hangman/HangmanActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7207" max-vertical-offset="7950">
-          <caret line="515" column="38" selection-start-line="515" selection-start-column="38" selection-end-line="515" selection-end-column="38" />
-          <folding>
-            <element signature="e#15226#15227#0" expanded="true" />
-            <element signature="e#15289#15290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/words.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4473161" vertical-offset="0" max-vertical-offset="615">
           <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pefi/Hangman/HangmanActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.094339624" vertical-offset="1275" max-vertical-offset="8730">
+          <caret line="100" column="66" selection-start-line="100" selection-start-column="66" selection-end-line="100" selection-end-column="66" />
+          <folding>
+            <element signature="e#14694#14707#0" expanded="true" />
+            <element signature="e#14811#14829#0" expanded="true" />
+            <element signature="e#15534#15546#0" expanded="true" />
+            <element signature="e#15648#15666#0" expanded="true" />
+            <element signature="e#16351#16373#0" expanded="true" />
+            <element signature="e#16403#16422#0" expanded="true" />
+            <element signature="e#16459#16471#0" expanded="true" />
+            <element signature="e#16925#16936#0" expanded="true" />
+            <element signature="e#17053#17054#0" expanded="true" />
+            <element signature="e#17116#17117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
