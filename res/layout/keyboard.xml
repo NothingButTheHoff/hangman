@@ -5,7 +5,7 @@
      android:layout_width="match_parent"
      android:layout_height="match_parent"
      android:stretchColumns="*"
-     android:weightSum="0" android:measureWithLargestChild="false" android:background="#121212">
+     android:weightSum="0" android:measureWithLargestChild="false" android:background="#111111">
 
     <TableRow
         android:id="@+id/row1"

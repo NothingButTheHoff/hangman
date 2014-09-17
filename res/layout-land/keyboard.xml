@@ -8,7 +8,7 @@
              android:stretchColumns="*"
              android:weightSum="1"
              android:baselineAligned="false"
-             android:longClickable="true" android:background="#121212">
+             android:longClickable="true" android:background="#111111">
 
  <!--   <TableRow
             android:layout_width="fill_parent"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_opaque">#FFFFFFFF</color>
+    <color name="pitch_black">#FF000000</color>
+
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:background">@color/pitch_black</item>
+
+    </style>
+</resources>
