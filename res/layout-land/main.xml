@@ -34,40 +34,44 @@
             android:layout_gravity="center"
             android:textAlignment="center">
         <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
                 android:text="@string/start_button"
                 android:id="@+id/button_start"
-                android:background="@android:color/transparent"
+                android:background="@drawable/button_menu"
                 android:onClick="startGame"
                 android:singleLine="false"
-                android:layout_centerHorizontal="true" android:textColor="#121212" android:textSize="24sp"/>
+                android:layout_centerHorizontal="true" android:textColor="#121212" android:textSize="24sp"
+                android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
         <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
                 android:text="@string/rules_button"
                 android:id="@+id/button_rules"
-                android:background="@android:color/transparent"
+                android:background="@drawable/button_menu"
                 android:onClick="showRules"
                 android:layout_below="@+id/button_start"
-                android:layout_centerHorizontal="true" android:textColor="#121212" android:textSize="24sp"/>
+                android:layout_centerHorizontal="true" android:textColor="#121212" android:textSize="24sp"
+                android:layout_marginBottom="5dp" android:layout_marginTop="5dp"/>
         <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
                 android:text="@string/settings_button"
                 android:id="@+id/button_settings"
                 android:layout_centerHorizontal="true"
-                android:background="@android:color/transparent"
+                android:background="@drawable/button_menu"
                 android:onClick="openSettings"
-                android:layout_below="@+id/button_rules" android:textColor="#121212" android:textSize="24sp"/>
+                android:layout_below="@+id/button_rules" android:textColor="#121212" android:textSize="24sp"
+                android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
         <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
                 android:text="@string/exit_button"
                 android:id="@+id/button_exit"
-                android:background="@android:color/transparent"
+                android:background="@drawable/button_menu"
                 android:layout_below="@+id/button_settings"
                 android:layout_centerHorizontal="true"
-                android:onClick="killApp" android:textSize="24sp"/>
+                android:onClick="killApp" android:textSize="24sp" android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" android:textColor="#121212"/>
     </RelativeLayout>
 </LinearLayout>
