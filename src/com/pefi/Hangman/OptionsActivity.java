@@ -79,13 +79,14 @@ public class OptionsActivity extends Activity {
     public void onBackPressed() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+        //animated transition
         overridePendingTransition( R.anim.top_in, R.anim.bottom_out);
     }
 
     public void backToMenu(View v){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
-        //transition animation
+        //animated transition
         overridePendingTransition( R.anim.top_in, R.anim.bottom_out);
     }
 

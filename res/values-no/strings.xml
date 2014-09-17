@@ -3,16 +3,41 @@
     <!-- app strings-->
     <string name="app_name">Hangman</string>
 
-     <!-- main activity-->
+    <!-- Main activity-->
 
     <string name="logo">Hangman</string>
-    <string name="start_button">Spill</string>
-    <string name="settings_button">Innstillinger</string>
+    <string name="start_button">Start</string>
+    <string name="settings_button">Valg</string>
+    <string name="rules_button">Regler</string>
+    <string name="rules">Et hemmelig ord blir tilfeldig valgt
+        og det er din oppgave å gjette riktige bosktaver,
+        helt til det riktige ordet er komplett. For hver riktige bokstav du gjetter
+        vil den dukke opp på en linje, som til slutt skal utgjøre ordet.
+        Du har kun et visst antall sjanser, og du må gjette ordet før mannen i galgen er hengt.
+        Lykke til!
+    </string>
+    <string name="exit_button">Avslutt</string>
+    <string name="close">Lukk</string>
+
 
     <!--  Hangman Activity   -->
 
-    <string name="lose">Du tapte!</string>
-    <string name="win">Du vant!</string>
-    <string name="new_game">Nytt spill?</string>
-    <string name="exit">Avslutt</string>
+    <string name="lose">Feil!</string>
+    <string name="win">Riktig!</string>
+    <string name="new_game">Nytt spill</string>
+    <string name="next_word">Neste ord</string>
+    <string name="new_word">Nytt ord</string>
+    <string name="congrats">Gratulerer!</string>
+    <string name="no_more_words">Ingen flere ord!</string>
+    <string name="play_again">Vil du spille en ny runde?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+    <string name="winsHead">Vunnet</string>
+    <string name="losesHead">Tapt</string>
+
+
+    <!--  OPTIONS ACTIVITY-->
+
+    <string name="back">Tilbake</string>
+    <string name="select_lang">Språk</string>
 </resources>
