@@ -2,6 +2,7 @@ package com.pefi.Hangman;
 
 import android.app.Activity;
 import android.app.Fragment;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,68 +25,97 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
 
         View view = inflater.inflate(R.layout.keyboard, container, false);
 
-
+        Typeface font = Typeface.createFromAsset(getResources().getAssets(), "ComingSoon.ttf");
 
 
 
         Button b = (Button) view.findViewById(R.id.key1);
         b.setOnClickListener(this);
+        b.setTypeface(font);
         Button b2 = (Button) view.findViewById(R.id.key2);
         b2.setOnClickListener(this);
+        b2.setTypeface(font);
         Button b3 = (Button) view.findViewById(R.id.key3);
+        b3.setTypeface(font);
         b3.setOnClickListener(this);
         Button b4 = (Button) view.findViewById(R.id.key4);
         b4.setOnClickListener(this);
+        b4.setTypeface(font);
         Button b5 = (Button) view.findViewById(R.id.key5);
         b5.setOnClickListener(this);
+        b5.setTypeface(font);
         Button b6 = (Button) view.findViewById(R.id.key6);
         b6.setOnClickListener(this);
+        b6.setTypeface(font);
         Button b7 = (Button) view.findViewById(R.id.key7);
         b7.setOnClickListener(this);
+        b7.setTypeface(font);
         Button b8 = (Button) view.findViewById(R.id.key8);
         b8.setOnClickListener(this);
+        b8.setTypeface(font);
         Button b9 = (Button) view.findViewById(R.id.key9);
         b9.setOnClickListener(this);
+        b9.setTypeface(font);
         Button b10 = (Button) view.findViewById(R.id.key10);
         b10.setOnClickListener(this);
+        b10.setTypeface(font);
         Button b11 = (Button) view.findViewById(R.id.key11);
         b11.setOnClickListener(this);
+        b11.setTypeface(font);
         Button b12 = (Button) view.findViewById(R.id.key12);
         b12.setOnClickListener(this);
+        b12.setTypeface(font);
         Button b13 = (Button) view.findViewById(R.id.key13);
         b13.setOnClickListener(this);
+        b13.setTypeface(font);
         Button b14 = (Button) view.findViewById(R.id.key14);
         b14.setOnClickListener(this);
+        b14.setTypeface(font);
         Button b15 = (Button) view.findViewById(R.id.key15);
         b15.setOnClickListener(this);
+        b15.setTypeface(font);
         Button b16 = (Button) view.findViewById(R.id.key16);
         b16.setOnClickListener(this);
+        b16.setTypeface(font);
         Button b17 = (Button) view.findViewById(R.id.key17);
         b17.setOnClickListener(this);
+        b17.setTypeface(font);
         Button b18 = (Button) view.findViewById(R.id.key18);
         b18.setOnClickListener(this);
+        b18.setTypeface(font);
         Button b19 = (Button) view.findViewById(R.id.key19);
         b19.setOnClickListener(this);
+        b19.setTypeface(font);
         Button b20 = (Button) view.findViewById(R.id.key20);
         b20.setOnClickListener(this);
+        b20.setTypeface(font);
         Button b21 = (Button) view.findViewById(R.id.key21);
         b21.setOnClickListener(this);
+        b21.setTypeface(font);
         Button b22 = (Button) view.findViewById(R.id.key22);
         b22.setOnClickListener(this);
+        b22.setTypeface(font);
         Button b23 = (Button) view.findViewById(R.id.key23);
         b23.setOnClickListener(this);
+        b23.setTypeface(font);
         Button b24 = (Button) view.findViewById(R.id.key24);
         b24.setOnClickListener(this);
+        b24.setTypeface(font);
         Button b25 = (Button) view.findViewById(R.id.key25);
         b25.setOnClickListener(this);
+        b25.setTypeface(font);
         Button b26 = (Button) view.findViewById(R.id.key26);
         b26.setOnClickListener(this);
+        b26.setTypeface(font);
         Button b27 = (Button) view.findViewById(R.id.key27);
         b27.setOnClickListener(this);
+        b27.setTypeface(font);
         Button b28 = (Button) view.findViewById(R.id.key28);
         b28.setOnClickListener(this);
+        b28.setTypeface(font);
         Button b29 = (Button) view.findViewById(R.id.key29);
         b29.setOnClickListener(this);
+        b29.setTypeface(font);
 
         return view;
     }
