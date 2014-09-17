@@ -35,8 +35,8 @@ public class OptionsActivity extends Activity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.options);
 
-        String[] lang = new String[] {"Engelsk", "Norsk"};
-
+        //puts the available languages into an array variable
+        String[] lang = getResources().getStringArray(R.array.languages_array);
         adapter = new ArrayAdapter<String>(this, R.layout.list, lang);
 
         //get and set new font

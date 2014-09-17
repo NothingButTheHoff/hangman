@@ -6,9 +6,9 @@
     <!-- Main activity-->
 
     <string name="logo">Hangman</string>
-    <string name="start_button">Start</string>
-    <string name="settings_button">Valg</string>
-    <string name="rules_button">Regler</string>
+    <string name="start_button">SPILL</string>
+    <string name="settings_button">VALG</string>
+    <string name="rules_button">REGLER</string>
     <string name="rules">Et hemmelig ord blir tilfeldig valgt
         og det er din oppgave å gjette riktige bosktaver,
         helt til det riktige ordet er komplett. For hver riktige bokstav du gjetter
@@ -16,7 +16,7 @@
         Du har kun et visst antall sjanser, og du må gjette ordet før mannen i galgen er hengt.
         Lykke til!
     </string>
-    <string name="exit_button">Avslutt</string>
+    <string name="exit_button">AVSLUTT</string>
     <string name="close">Lukk</string>
 
 
@@ -38,6 +38,6 @@
 
     <!--  OPTIONS ACTIVITY-->
 
-    <string name="back">Tilbake</string>
-    <string name="select_lang">Språk</string>
+    <string name="back">TILBAKE</string>
+    <string name="select_lang">SPRÅK</string>
 </resources>
