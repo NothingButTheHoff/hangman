@@ -41,7 +41,7 @@
                 android:background="@android:color/transparent"
                 android:onClick="startGame"
                 android:singleLine="false"
-                android:layout_centerHorizontal="true" android:textColor="#121212"/>
+                android:layout_centerHorizontal="true" android:textColor="#121212" android:textSize="24sp"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
                 android:background="@android:color/transparent"
                 android:onClick="showRules"
                 android:layout_below="@+id/button_start"
-                android:layout_centerHorizontal="true" android:textColor="#121212"/>
+                android:layout_centerHorizontal="true" android:textColor="#121212" android:textSize="24sp"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -59,15 +59,15 @@
                 android:layout_centerHorizontal="true"
                 android:background="@android:color/transparent"
                 android:onClick="openSettings"
-                android:layout_below="@+id/button_rules" android:textColor="#121212"/>
+                android:layout_below="@+id/button_rules" android:textColor="#121212" android:textSize="24sp"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/exit_button"
-                android:id="@+id/exit_button"
+                android:id="@+id/button_exit"
                 android:background="@android:color/transparent"
                 android:layout_below="@+id/button_settings"
                 android:layout_centerHorizontal="true"
-                android:onClick="killApp"/>
+                android:onClick="killApp" android:textSize="24sp"/>
     </RelativeLayout>
 </LinearLayout>

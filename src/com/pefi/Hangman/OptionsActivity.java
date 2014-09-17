@@ -5,10 +5,12 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 
 import java.util.Locale;
 
@@ -30,6 +32,14 @@ public class OptionsActivity extends Activity {
         String[] lang = new String[] {"Engelsk", "Norsk"};
 
         adapter = new ArrayAdapter<String>(this, R.layout.list, lang);
+
+        //get and set new font
+        Typeface font = Typeface.createFromAsset(getAssets(), "ComingSoon.ttf");
+
+        Button b = (Button) findViewById(R.id.button_lang_select);
+        Button b1 = (Button) findViewById(R.id.back_to_menu);
+        b.setTypeface(font);
+        b1.setTypeface(font);
     }
 
     public void selectLanguage(View v) {
@@ -69,12 +79,14 @@ public class OptionsActivity extends Activity {
     public void onBackPressed() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
-
+        overridePendingTransition( R.anim.top_in, R.anim.bottom_out);
     }
 
     public void backToMenu(View v){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+        //transition animation
+        overridePendingTransition( R.anim.top_in, R.anim.bottom_out);
     }
 
 } // end of class

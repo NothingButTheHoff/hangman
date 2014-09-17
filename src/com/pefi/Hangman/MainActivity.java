@@ -5,9 +5,11 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.os.*;
+import android.graphics.Typeface;
+import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 
@@ -23,12 +25,30 @@ public class MainActivity extends Activity {
         Configuration c = new Configuration();
         System.out.println(c.describeContents());
 
+        //get the custom font
+        Typeface font = Typeface.createFromAsset(getAssets(), "Schoolbell.ttf");
+
+        //get Buttons
+        Button b  = (Button) findViewById(R.id.button_start);
+        Button b1 = (Button) findViewById(R.id.button_rules);
+        Button b2 = (Button) findViewById(R.id.button_settings);
+        Button b3 = (Button) findViewById(R.id.button_exit);
+
+
+        //set typeface to buttons
+        b.setTypeface(font);
+        b1.setTypeface(font);
+        b2.setTypeface(font);
+        b3.setTypeface(font);
+
     }
 
 
     public void startGame(View view) {
         Intent intent = new Intent(this, HangmanActivity.class);
         startActivity(intent);
+        //animated transitions
+        overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
     public void showRules(View view){
@@ -46,6 +66,7 @@ public class MainActivity extends Activity {
     public void openSettings(View view) {
         Intent intent = new Intent(this, OptionsActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
     }
 
 
