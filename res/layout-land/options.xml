@@ -5,20 +5,23 @@
                 android:layout_height="match_parent" android:background="@drawable/hangmanbackgroundlandnogallow">
 
     <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Menu"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="@string/back"
             android:id="@+id/back_to_menu"
-            android:background="#00000000"
-            android:onClick="backToMenu" android:textSize="18sp" android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" android:textColor="#121212"/>
+            android:onClick="backToMenu" android:textSize="20sp"
+            android:textColor="#121212"
+            android:layout_above="@+id/button_lang_select" android:layout_centerHorizontal="true"
+            android:background="@drawable/button_menu" android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" android:gravity="center"/>
     <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Language"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="@string/select_lang"
             android:id="@+id/button_lang_select"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:onClick="selectLanguage" android:background="@android:color/transparent" android:textSize="18sp"
-            android:textColor="#121212"/>
+            android:onClick="selectLanguage" android:background="@drawable/button_menu" android:textSize="20sp"
+            android:textColor="#121212" android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+            android:gravity="center"/>
 </RelativeLayout>

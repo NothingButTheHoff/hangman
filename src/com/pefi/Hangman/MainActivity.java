@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
         System.out.println(c.describeContents());
 
         //get the custom font
-        Typeface font = Typeface.createFromAsset(getAssets(), "Schoolbell.ttf");
+        Typeface font = Typeface.createFromAsset(getAssets(), "ComingSoon.ttf");
 
         //get Buttons
         Button b  = (Button) findViewById(R.id.button_start);

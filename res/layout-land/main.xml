@@ -41,8 +41,8 @@
                 android:background="@drawable/button_menu"
                 android:onClick="startGame"
                 android:singleLine="false"
-                android:layout_centerHorizontal="true" android:textColor="#121212" android:textSize="24sp"
-                android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+                android:layout_centerHorizontal="true" android:textColor="#121212" android:textSize="20sp"
+                android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:gravity="center"/>
         <Button
                 android:layout_width="120dp"
                 android:layout_height="40dp"
@@ -51,8 +51,8 @@
                 android:background="@drawable/button_menu"
                 android:onClick="showRules"
                 android:layout_below="@+id/button_start"
-                android:layout_centerHorizontal="true" android:textColor="#121212" android:textSize="24sp"
-                android:layout_marginBottom="5dp" android:layout_marginTop="5dp"/>
+                android:layout_centerHorizontal="true" android:textColor="#121212" android:textSize="20sp"
+                android:layout_marginBottom="5dp" android:layout_marginTop="5dp" android:gravity="center"/>
         <Button
                 android:layout_width="120dp"
                 android:layout_height="40dp"
@@ -61,8 +61,8 @@
                 android:layout_centerHorizontal="true"
                 android:background="@drawable/button_menu"
                 android:onClick="openSettings"
-                android:layout_below="@+id/button_rules" android:textColor="#121212" android:textSize="24sp"
-                android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+                android:layout_below="@+id/button_rules" android:textColor="#121212" android:textSize="20sp"
+                android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:gravity="center"/>
         <Button
                 android:layout_width="120dp"
                 android:layout_height="40dp"
@@ -71,7 +71,7 @@
                 android:background="@drawable/button_menu"
                 android:layout_below="@+id/button_settings"
                 android:layout_centerHorizontal="true"
-                android:onClick="killApp" android:textSize="24sp" android:layout_marginBottom="5dp"
-                android:layout_marginTop="5dp" android:textColor="#121212"/>
+                android:onClick="killApp" android:textSize="20sp" android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" android:textColor="#121212" android:gravity="center"/>
     </RelativeLayout>
 </LinearLayout>

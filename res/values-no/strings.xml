@@ -32,8 +32,10 @@
     <string name="play_again">Vil du spille en ny runde?</string>
     <string name="yes">Ja</string>
     <string name="no">Nei</string>
-    <string name="winsHead">Vunnet</string>
-    <string name="losesHead">Tapt</string>
+    <string name="winsHead">VUNNET</string>
+    <string name="losesHead">TAPT</string>
+    <string name="win_msg">er korrekt!</string>
+    <string name="lose_msg">Riktig ord er</string>
 
 
     <!--  OPTIONS ACTIVITY-->

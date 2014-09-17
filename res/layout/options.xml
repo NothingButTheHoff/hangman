@@ -5,18 +5,20 @@
                 android:layout_height="match_parent" android:background="@drawable/gamebackground">
 
     <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
             android:id="@+id/button_lang_select"
-            android:onClick="selectLanguage" android:background="@android:color/transparent" android:textSize="24sp"
+            android:onClick="selectLanguage" android:background="@drawable/button_menu" android:textSize="20sp"
             android:text="@string/select_lang" android:textColor="#121212" android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" android:layout_marginTop="172dp"/>
+            android:layout_centerHorizontal="true" android:layout_marginTop="172dp" android:gravity="center"
+            android:textAlignment="gravity"/>
     <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
             android:id="@+id/back_to_menu"
-            android:background="#00000000"
-            android:onClick="backToMenu" android:textSize="24sp"
+            android:background="@drawable/button_menu"
+            android:onClick="backToMenu" android:textSize="20sp"
             android:layout_below="@+id/button_lang_select" android:layout_centerHorizontal="true"
-            android:layout_marginTop="36dp" android:text="@string/back" android:textColor="#121212"/>
+            android:layout_marginTop="36dp" android:text="@string/back" android:textColor="#121212"
+            android:gravity="center"/>
 </RelativeLayout>

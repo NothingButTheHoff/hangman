@@ -30,8 +30,10 @@
     <string name="play_again">Do you want to play again?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
-    <string name="winsHead">Won</string>
-    <string name="losesHead">Lost</string>
+    <string name="winsHead">WON</string>
+    <string name="losesHead">LOST</string>
+    <string name="win_msg">is correct!</string>
+    <string name="lose_msg">Correct word is</string>
 
 
     <!--  OPTIONS ACTIVITY-->
