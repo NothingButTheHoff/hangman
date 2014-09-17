@@ -2,7 +2,9 @@
 <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
-        android:focusable="false">
+        android:focusable="false"
+        android:background="@drawable/hangmanbackground">
+
     <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,7 +31,7 @@
                 android:layout_centerHorizontal="true"
                 android:background="@android:color/transparent"
                 android:onClick="startGame"
-                android:focusable="false" android:textSize="18sp"/>
+                android:focusable="false" android:textSize="18sp" android:textColor="#121212"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -38,7 +40,7 @@
                 android:background="@android:color/transparent"
                 android:onClick="showRules"
                 android:layout_alignStart="@id/button_rules" android:layout_centerHorizontal="true"
-                android:layout_below="@+id/button_start" android:textSize="18sp"/>
+                android:layout_below="@+id/button_start" android:textSize="18sp" android:textColor="#121212"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -46,7 +48,8 @@
                 android:id="@+id/button_settings"
                 android:layout_centerHorizontal="true"
                 android:background="@android:color/transparent"
-                android:onClick="openSettings" android:layout_below="@+id/button_rules" android:textSize="18sp"/>
+                android:onClick="openSettings" android:layout_below="@+id/button_rules" android:textSize="18sp"
+                android:textColor="#121212"/>
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -56,6 +59,6 @@
                 android:background="@android:color/transparent"
                 android:layout_centerHorizontal="true"
                 android:onClick="killApp"
-                android:textSize="18sp"/>
+                android:textSize="18sp" android:textColor="#121212"/>
     </RelativeLayout>
 </RelativeLayout>
