@@ -19,9 +19,15 @@ import java.util.Locale;
  */
 
 public class OptionsActivity extends Activity {
+    //configs
     Configuration config;
     Locale locale;
+
+    //languages array
     ArrayAdapter<String> adapter;
+
+    //UI
+    Button b,b1;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -36,8 +42,8 @@ public class OptionsActivity extends Activity {
         //get and set new font
         Typeface font = Typeface.createFromAsset(getAssets(), "ComingSoon.ttf");
 
-        Button b = (Button) findViewById(R.id.button_lang_select);
-        Button b1 = (Button) findViewById(R.id.back_to_menu);
+        b = (Button) findViewById(R.id.button_lang_select);
+        b1 = (Button) findViewById(R.id.back_to_menu);
         b.setTypeface(font);
         b1.setTypeface(font);
     }
@@ -55,12 +61,16 @@ public class OptionsActivity extends Activity {
                                 config = new Configuration();
                                 config.locale = locale;
                                 getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+                                b.setText(R.string.select_lang);
+                                b1.setText(R.string.back);
                                 break;
                             case 1:
                                 locale = new Locale("no");
                                 config = new Configuration();
                                 config.locale = locale;
                                 getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+                                b.setText(R.string.select_lang);
+                                b1.setText(R.string.back);
                                 break;
                             default:
                                 locale = new Locale("en");
