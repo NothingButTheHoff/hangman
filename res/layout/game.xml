@@ -4,19 +4,18 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:orientation="vertical" android:background="@drawable/gamebackground">
+        android:orientation="vertical"
+        android:background="@drawable/gamebackground">
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="40dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/input_word"
-            android:editable="false"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             android:singleLine="true"
             android:scaleX="1"
             android:gravity="center"
-            android:autoText="false"
             android:textIsSelectable="false"
             android:layout_alignParentStart="true"
             android:textSize="30sp"/>
@@ -26,12 +25,16 @@
             android:id="@+id/hangman_image"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="false"
-            android:layout_alignParentEnd="false" android:contentDescription="Hangman graphics"/>
+            android:layout_alignParentEnd="false"
+            android:contentDescription="@string/logo"/>
     <LinearLayout
             android:orientation="vertical"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:layout_alignParentEnd="true"
-            android:gravity="center_horizontal" android:padding="10dp" android:id="@+id/linearLayout"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:id="@+id/linearLayout"
             android:weightSum="1">
         <TextView
                 android:layout_width="wrap_content"
@@ -39,13 +42,18 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/select_cat"
                 android:id="@+id/categoryHead"
-                android:textSize="20sp" android:layout_alignTop="@+id/back2" android:layout_toLeftOf="@+id/linearLayout"
-                android:layout_alignBottom="@+id/back2" android:gravity="center"/>
+                android:textSize="20sp"
+                android:layout_alignTop="@+id/back2"
+                android:layout_toLeftOf="@+id/linearLayout"
+                android:layout_alignBottom="@+id/back2"
+                android:gravity="center"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:id="@+id/category" android:textSize="22sp" android:textColor="#ff9026bc"
+                android:id="@+id/category"
+                android:textSize="22sp"
+                android:textColor="#ff9026bc"
                 android:gravity="center"
                 android:layout_weight="0.70"/>
         <TextView
@@ -61,7 +69,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/noOfWins"
-                android:gravity="center_horizontal" android:textColor="#ff00b852"
+                android:gravity="center_horizontal"
+                android:textColor="#ff00b852"
                 android:textSize="30sp"/>
         <TextView
                 android:layout_width="wrap_content"
@@ -69,22 +78,30 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/losesHead"
                 android:id="@+id/noOfLostHead"
-                android:gravity="center_horizontal" android:textSize="20sp"/>
+                android:gravity="center_horizontal"
+                android:textSize="20sp"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/noOfLost"
-                android:gravity="center_horizontal" android:textColor="#ffd00013" android:textSize="30sp"/>
+                android:gravity="center_horizontal"
+                android:textColor="#ffd00013"
+                android:textSize="30sp"/>
     </LinearLayout>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:text="@string/back"
-            android:id="@+id/back2" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+            android:id="@+id/back2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
             android:background="@drawable/button_menu"
-            android:onClick="goBack" android:layout_marginLeft="5dp" android:layout_marginTop="5dp"
-            android:textSize="20sp" android:textColor="#121212"
+            android:onClick="goBack"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:textColor="#121212"
             android:paddingLeft="3dp"
             android:paddingRight="3dp"/>
 </RelativeLayout>

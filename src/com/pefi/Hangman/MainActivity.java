@@ -20,13 +20,14 @@ public class MainActivity extends Activity {
     //config
     Configuration config;
     Locale locale;
+
     //passed data
     Intent intent;
     String lang;
     int cat;
-    /**
-     * Called when the activity is first created.
-     */
+
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,8 +45,6 @@ public class MainActivity extends Activity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE); //hides the default android titlebar
         setContentView(R.layout.main);
 
-        Configuration c = new Configuration();
-        System.out.println(c.describeContents());
 
         //get the custom font
         Typeface font = Typeface.createFromAsset(getAssets(), "ComingSoon.ttf");
@@ -113,4 +112,4 @@ public class MainActivity extends Activity {
     }
 
 
-}
+}//end of class

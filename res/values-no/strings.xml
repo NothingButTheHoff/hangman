@@ -36,7 +36,6 @@
     <string name="losesHead">TAPT</string>
     <string name="win_msg">er korrekt!</string>
     <string name="lose_msg">Riktig ord er</string>
-    <string name="random_cat">Tilfeldig</string>
 
 
     <!--  OPTIONS ACTIVITY-->

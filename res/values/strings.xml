@@ -36,7 +36,6 @@
     <string name="losesHead">LOST</string>
     <string name="win_msg">is correct!</string>
     <string name="lose_msg">Correct word is</string>
-    <string name="random_cat">Random</string>
 
 
     <!--  OPTIONS ACTIVITY-->

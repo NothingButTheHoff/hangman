@@ -16,8 +16,12 @@ import java.util.Locale;
  * Created by pererikfinstad on 01/09/14.
  */
 public class KeyboardFragment extends Fragment implements OnClickListener {
+    //debug helper
     public final static String TAG = "KeyboardFragment";
+
+    //interfaces
     OnItemSelectedListener mCallback;
+
     View view;
 
 
@@ -26,7 +30,7 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
         super.onActivityCreated(savedInstanceState);
 
         Locale locale = getResources().getConfiguration().locale;
-        System.out.println(locale);
+
         if (locale.toString().equals("no")){
             view = inflater.inflate(R.layout.keyboard_no, container, false);
         }
@@ -156,7 +160,7 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
         mCallback.onLetterSelected(s, id);
     }
 
-    public void generateKeyboard(){}
+
 
     @Override
     public void onClick(View v) {

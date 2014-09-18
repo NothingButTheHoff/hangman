@@ -253,7 +253,7 @@
             android:text="Z"
             android:id="@+id/key26"
             android:layout_weight="1" android:layout_margin="4dp"/>
-s
+
     </TableRow>
 
 </TableLayout>

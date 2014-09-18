@@ -23,6 +23,7 @@ public class OptionsActivity extends Activity {
     Configuration config;
     Locale locale;
 
+    //intent variables
     String lang;
     int cat;
 
