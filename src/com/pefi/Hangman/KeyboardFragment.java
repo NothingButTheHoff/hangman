@@ -10,20 +10,29 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import java.util.Locale;
+
 /**
  * Created by pererikfinstad on 01/09/14.
  */
 public class KeyboardFragment extends Fragment implements OnClickListener {
     public final static String TAG = "KeyboardFragment";
     OnItemSelectedListener mCallback;
+    View view;
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-
-        View view = inflater.inflate(R.layout.keyboard, container, false);
+        Locale locale = getResources().getConfiguration().locale;
+        System.out.println(locale);
+        if (locale.toString().equals("no")){
+            view = inflater.inflate(R.layout.keyboard_no, container, false);
+        }
+        else{
+            view = inflater.inflate(R.layout.keyboard, container, false);
+        }
 
         Typeface font = Typeface.createFromAsset(getResources().getAssets(), "ComingSoon.ttf");
 
@@ -107,15 +116,18 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
         Button b26 = (Button) view.findViewById(R.id.key26);
         b26.setOnClickListener(this);
         b26.setTypeface(font);
-        Button b27 = (Button) view.findViewById(R.id.key27);
-        b27.setOnClickListener(this);
-        b27.setTypeface(font);
-        Button b28 = (Button) view.findViewById(R.id.key28);
-        b28.setOnClickListener(this);
-        b28.setTypeface(font);
-        Button b29 = (Button) view.findViewById(R.id.key29);
-        b29.setOnClickListener(this);
-        b29.setTypeface(font);
+        if (locale.toString().equals("no")){
+
+            Button b27 = (Button) view.findViewById(R.id.key27);
+            b27.setOnClickListener(this);
+            b27.setTypeface(font);
+            Button b28 = (Button) view.findViewById(R.id.key28);
+            b28.setOnClickListener(this);
+            b28.setTypeface(font);
+            Button b29 = (Button) view.findViewById(R.id.key29);
+            b29.setOnClickListener(this);
+            b29.setTypeface(font);
+        }
 
         return view;
     }

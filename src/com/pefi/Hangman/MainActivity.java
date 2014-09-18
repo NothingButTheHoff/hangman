@@ -34,7 +34,6 @@ public class MainActivity extends Activity {
         Button b2 = (Button) findViewById(R.id.button_settings);
         Button b3 = (Button) findViewById(R.id.button_exit);
 
-
         //set typeface to buttons
         b.setTypeface(font);
         b1.setTypeface(font);

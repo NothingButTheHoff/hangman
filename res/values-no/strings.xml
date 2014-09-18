@@ -13,7 +13,7 @@
         og det er din oppgave å gjette riktige bosktaver,
         helt til det riktige ordet er komplett. For hver riktige bokstav du gjetter
         vil den dukke opp på en linje, som til slutt skal utgjøre ordet.
-        Du har kun et visst antall sjanser, og du må gjette ordet før mannen i galgen er hengt.
+        Du har kun et visst antall sjanser, og du må gjette ordet før personen i galgen er hengt.
         Lykke til!
     </string>
     <string name="exit_button">AVSLUTT</string>

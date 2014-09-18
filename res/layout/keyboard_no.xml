@@ -198,13 +198,6 @@
             android:text="T"
             android:id="@+id/key20"
             android:layout_weight="1" android:layout_margin="4dp"/>
-    </TableRow>
-
-
-    <TableRow
-            android:id="@+id/row4"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
 
         <Button
             android:layout_width="20dp"
@@ -213,6 +206,13 @@
             android:text="U"
             android:id="@+id/key21"
             android:layout_weight="1" android:layout_margin="4dp"/>
+    </TableRow>
+
+
+    <TableRow
+            android:id="@+id/row4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
 
         <Button
             android:layout_width="20dp"
@@ -253,7 +253,30 @@
             android:text="Z"
             android:id="@+id/key26"
             android:layout_weight="1" android:layout_margin="4dp"/>
-s
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:text="Æ"
+            android:id="@+id/key27"
+            android:layout_weight="1" android:layout_margin="4dp"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:text="Ø"
+            android:id="@+id/key28"
+            android:layout_weight="1" android:layout_margin="4dp"/>
+
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:text="Å"
+            android:id="@+id/key29"
+            android:layout_weight="1" android:layout_margin="4dp"/>
     </TableRow>
 
 </TableLayout>
