@@ -11,15 +11,35 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
-public class MainActivity extends Activity {
+import java.util.Locale;
 
+public class MainActivity extends Activity {
+    //debugging tags
+    private static final String TAG = "MainActivity";
+
+    //config
+    Configuration config;
+    Locale locale;
+    //passed data
+    Intent intent;
+    String lang;
     /**
      * Called when the activity is first created.
      */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //get the selected language from the intent and set it
+        intent = getIntent();
+        lang = intent.getStringExtra("lang");
+        if (lang != null){
+            locale = new Locale(lang);
+            config = new Configuration();
+            config.locale = locale; //assign variable to be sent with intent
+            getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+        }
+
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE); //hides the default android titlebar
         setContentView(R.layout.main);
 
         Configuration c = new Configuration();
@@ -45,6 +65,7 @@ public class MainActivity extends Activity {
 
     public void startGame(View view) {
         Intent intent = new Intent(this, HangmanActivity.class);
+        intent.putExtra("lang", lang);
         startActivity(intent);
         //animated transitions
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
@@ -64,7 +85,11 @@ public class MainActivity extends Activity {
 
     public void openSettings(View view) {
         Intent intent = new Intent(this, OptionsActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        //pass correct language
+        intent.putExtra("lang", lang);
         startActivity(intent);
+        //animated transitions
         overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
     }
 

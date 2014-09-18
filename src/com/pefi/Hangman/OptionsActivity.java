@@ -23,16 +23,32 @@ public class OptionsActivity extends Activity {
     Configuration config;
     Locale locale;
 
+    String lang;
+
     //languages array
     ArrayAdapter<String> adapter;
 
     //UI
     Button b,b1;
 
+    //passing data
+    Intent intent;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+        //get the selected language from the intent and set it
+        intent = getIntent();
+        lang = intent.getStringExtra("lang");
+        if (lang != null){
+            locale = new Locale(lang);
+            config = new Configuration();
+            config.locale = locale; //assign variable to be sent with intent
+            getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+        }
+
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE); //hides the default android titlebar
         setContentView(R.layout.options);
 
         //puts the available languages into an array variable
@@ -59,8 +75,10 @@ public class OptionsActivity extends Activity {
                             case 0:
                                 locale = new Locale("en");
                                 config = new Configuration();
-                                config.locale = locale;
+                                config.locale = locale; //assign variable to be sent with intent
+                                lang = locale.toString();
                                 getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+                                //update UI
                                 b.setText(R.string.select_lang);
                                 b1.setText(R.string.back);
                                 break;
@@ -68,7 +86,9 @@ public class OptionsActivity extends Activity {
                                 locale = new Locale("no");
                                 config = new Configuration();
                                 config.locale = locale;
+                                lang = locale.toString(); //assign variable to be sent with intent
                                 getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+                                //update UI
                                 b.setText(R.string.select_lang);
                                 b1.setText(R.string.back);
                                 break;
@@ -76,6 +96,7 @@ public class OptionsActivity extends Activity {
                                 locale = new Locale("en");
                                 config = new Configuration();
                                 config.locale = locale;
+                                lang = "en";
                                 getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
                         }
 
@@ -85,17 +106,19 @@ public class OptionsActivity extends Activity {
     }
 
 
-    @Override
-    public void onBackPressed() {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-        //animated transition
-        overridePendingTransition( R.anim.top_in, R.anim.bottom_out);
+    public void backToMenu(View v){
+        onBackPressed();
     }
 
-    public void backToMenu(View v){
-        Intent intent = new Intent(this, MainActivity.class);
+    @Override
+    public void onBackPressed() {
+        intent = new Intent(this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        //pass the selected language
+        intent.putExtra("lang", lang);
         startActivity(intent);
+        finish();
+
         //animated transition
         overridePendingTransition( R.anim.top_in, R.anim.bottom_out);
     }
