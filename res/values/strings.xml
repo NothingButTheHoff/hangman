@@ -10,10 +10,12 @@
     <string name="settings_button">SETTINGS</string>
     <string name="rules_button">RULES</string>
     <string name="rules">A secret word is randomly selected and your task is to
-                             guess the correct letters in the word, until the word is complete. For each correct
-                            guess, the letter will show on a line. If you guess wrong
-                            a gallow and a hanging person will be drawn. You loose when the
-                            person is hanged. Good luck!</string>
+                             guess the correct letters in the word, until the word
+                            is complete. For each correct guess, the letter will
+                            show on a line. If you guess wrong a gallow and a
+                            hanging person will be drawn. You loose when the
+                            person is hanged. Good luck!
+    </string>
     <string name="exit_button">EXIT</string>
     <string name="close">Close</string>
 
@@ -34,10 +36,12 @@
     <string name="losesHead">LOST</string>
     <string name="win_msg">is correct!</string>
     <string name="lose_msg">Correct word is</string>
+    <string name="random_cat">Random</string>
 
 
     <!--  OPTIONS ACTIVITY-->
 
     <string name="back">MENU</string>
     <string name="select_lang">LANGUAGE</string>
+    <string name="select_cat">CATEGORY</string>
 </resources>

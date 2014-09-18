@@ -1,36 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="word_array">
-        <item>eple</item>
-        <item>pinnsvin</item>
-        <item>blomst</item>
-        <item>forskning</item>
-        <item>skygge</item>
-        <item>bukse</item>
-        <item>hus</item>
-        <item>katt</item>
-        <item>tavle</item>
-        <item>fly</item>
-        <item>tønne</item>
-        <item>tastatur</item>
-        <item>stein</item>
-        <item>lys</item>
-        <item>pølse</item>
-        <item>kraftverk</item>
-        <item>bøtte</item>
-        <item>sykkel</item>
-        <item>hemoroider</item>
-        <item>mage</item>
-        <item>tre</item>
-        <item>garasje</item>
-        <item>soverom</item>
+        <!-- home -->
         <item>sofa</item>
-        <item>solskinn</item>
-        <item>bokhandel</item>
-        <item>forsker</item>
-        <item>sykepleier</item>
-        <item>intellektuell</item>
-        <item>instrument</item>
-        <item>miljø</item>
+        <item>blomst</item>
+        <item>speil</item>
+        <item>stol</item>
+        <item>teppe</item>
+        <item>bord</item>
+        <item>pute</item>
+        <item>tak</item>
+        <item>vindu</item>
+        <item>skap</item>
+        <!-- countries -->
+        <item>sverige</item>
+        <item>mexico</item>
+        <item>spania</item>
+        <item>italia</item>
+        <item>russland</item>
+        <item>japan</item>
+        <item>kina</item>
+        <item>nigeria</item>
+        <item>australia</item>
+        <item>argentina</item>
+        <!--animals -->
+        <item>hund</item>
+        <item>katt</item>
+        <item>edderkopp</item>
+        <item>giraff</item>
+        <item>krokodille</item>
+        <item>ku</item>
+        <item>slange</item>
+        <item>elg</item>
+        <item>sau</item>
+        <item>neshorn</item>
+        <!--fruits -->
+        <item>eple</item>
+        <item>ananas</item>
+        <item>appelsin</item>
+        <item>banan</item>
+        <item>melon</item>
+        <item>druer</item>
     </string-array>
 </resources>

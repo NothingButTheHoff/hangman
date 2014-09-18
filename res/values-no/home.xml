@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home">
+        <item>sofa</item>
+        <item>blomst</item>
+        <item>speil</item>
+        <item>stol</item>
+        <item>teppe</item>
+        <item>bord</item>
+        <item>pute</item>
+        <item>tak</item>
+        <item>vindu</item>
+        <item>skap</item>
+    </string-array>
+</resources>

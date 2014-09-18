@@ -1,36 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="word_array">
-        <item>apple</item>
-        <item>hedgehog</item>
+        <!-- home -->
+        <item>counch</item>
         <item>flower</item>
-        <item>science</item>
-        <item>shadow</item>
-        <item>trousers</item>
-        <item>house</item>
+        <item>mirror</item>
+        <item>stool</item>
+        <item>carpet</item>
+        <item>table</item>
+        <item>pillow</item>
+        <item>roof</item>
+        <item>window</item>
+        <item>closet</item>
+        <!-- countries -->
+        <item>sweden</item>
+        <item>mexico</item>
+        <item>spain</item>
+        <item>italy</item>
+        <item>russia</item>
+        <item>japan</item>
+        <item>china</item>
+        <item>nigeria</item>
+        <item>australia</item>
+        <item>argentina</item>
+        <!--animals -->
+        <item>dog</item>
         <item>cat</item>
-        <item>blackboard</item>
-        <item>airplane</item>
-        <item>barrel</item>
-        <item>keyboard</item>
-        <item>stone</item>
-        <item>candle</item>
-        <item>sausage</item>
-        <item>powerplant</item>
-        <item>bucket</item>
-        <item>bicycle</item>
-        <item>hemorrhoids</item>
-        <item>stomach</item>
-        <item>tree</item>
-        <item>garage</item>
-        <item>bedroom</item>
-        <item>couch</item>
-        <item>sunshine</item>
-        <item>bookstore</item>
-        <item>scientist</item>
-        <item>nurse</item>
-        <item>intellectual</item>
-        <item>instrument</item>
-        <item>environment</item>
+        <item>spider</item>
+        <item>giraffe</item>
+        <item>crocodile</item>
+        <item>cow</item>
+        <item>snake</item>
+        <item>moose</item>
+        <item>sheep</item>
+        <item>rhino</item>
+        <!--fruits -->
+        <item>apple</item>
+        <item>pineapple</item>
+        <item>orange</item>
+        <item>banana</item>
+        <item>melon</item>
+        <item>grapes</item>
     </string-array>
 </resources>

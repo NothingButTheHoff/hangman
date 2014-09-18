@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Dyr</item>
+        <item>Hjem</item>
+        <item>Land</item>
+        <item>Frukt</item>
+        <item>Tilfeldig</item>
+    </string-array>
+</resources>

@@ -10,11 +10,11 @@
     <string name="settings_button">VALG</string>
     <string name="rules_button">REGLER</string>
     <string name="rules">Et hemmelig ord blir tilfeldig valgt
-        og det er din oppgave å gjette riktige bosktaver,
-        helt til det riktige ordet er komplett. For hver riktige bokstav du gjetter
-        vil den dukke opp på en linje, som til slutt skal utgjøre ordet.
-        Du har kun et visst antall sjanser, og du må gjette ordet før personen i galgen er hengt.
-        Lykke til!
+                         og det er din oppgave å gjette riktige bosktaver,
+                         helt til det riktige ordet er komplett. For hver riktige bokstav du gjetter
+                         vil den dukke opp på en linje, som til slutt skal utgjøre ordet.
+                         Du har kun et visst antall sjanser, og du må gjette ordet før personen i galgen er hengt.
+                         Lykke til!
     </string>
     <string name="exit_button">AVSLUTT</string>
     <string name="close">Lukk</string>
@@ -36,10 +36,13 @@
     <string name="losesHead">TAPT</string>
     <string name="win_msg">er korrekt!</string>
     <string name="lose_msg">Riktig ord er</string>
+    <string name="random_cat">Tilfeldig</string>
 
 
     <!--  OPTIONS ACTIVITY-->
 
     <string name="back">MENY</string>
     <string name="select_lang">SPRÅK</string>
+    <string name="select_cat">KATEGORI</string>
+
 </resources>

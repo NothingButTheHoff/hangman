@@ -23,6 +23,7 @@ public class MainActivity extends Activity {
     //passed data
     Intent intent;
     String lang;
+    int cat;
     /**
      * Called when the activity is first created.
      */
@@ -32,6 +33,7 @@ public class MainActivity extends Activity {
         //get the selected language from the intent and set it
         intent = getIntent();
         lang = intent.getStringExtra("lang");
+        cat = intent.getIntExtra("cat", 4);
         if (lang != null){
             locale = new Locale(lang);
             config = new Configuration();
@@ -66,6 +68,7 @@ public class MainActivity extends Activity {
     public void startGame(View view) {
         Intent intent = new Intent(this, HangmanActivity.class);
         intent.putExtra("lang", lang);
+        intent.putExtra("cat", cat);
         startActivity(intent);
         //animated transitions
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
@@ -88,6 +91,7 @@ public class MainActivity extends Activity {
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         //pass correct language
         intent.putExtra("lang", lang);
+        intent.putExtra("cat", cat);
         startActivity(intent);
         //animated transitions
         overridePendingTransition(R.anim.bottom_in, R.anim.top_out);

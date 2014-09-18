@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home">
+        <item>counch</item>
+        <item>flower</item>
+        <item>mirror</item>
+        <item>stool</item>
+        <item>carpet</item>
+        <item>table</item>
+        <item>pillow</item>
+        <item>roof</item>
+        <item>window</item>
+        <item>closet</item>
+    </string-array>
+</resources>
