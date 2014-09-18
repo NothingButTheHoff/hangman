@@ -38,6 +38,6 @@
 
     <!--  OPTIONS ACTIVITY-->
 
-    <string name="back">BACK</string>
+    <string name="back">MENU</string>
     <string name="select_lang">LANGUAGE</string>
 </resources>

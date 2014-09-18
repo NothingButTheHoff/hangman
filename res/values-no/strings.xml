@@ -40,6 +40,6 @@
 
     <!--  OPTIONS ACTIVITY-->
 
-    <string name="back">TILBAKE</string>
+    <string name="back">MENY</string>
     <string name="select_lang">SPRÅK</string>
 </resources>

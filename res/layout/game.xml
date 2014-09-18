@@ -68,5 +68,7 @@
             android:id="@+id/back2" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
             android:background="@drawable/button_menu"
             android:onClick="goBack" android:layout_marginLeft="5dp" android:layout_marginTop="5dp"
-            android:textSize="20sp" android:textColor="#121212"/>
+            android:textSize="20sp" android:textColor="#121212"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"/>
 </RelativeLayout>
