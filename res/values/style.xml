@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="white_opaque">#FFFFFFFF</color>
-    <color name="pitch_black">#FF000000</color>
+    <!-- This AppTheme is empty and is only used to hide the splash screen on startup/runtime -->
+    <style name="AppTheme">
 
-    <style name="AppTheme" parent="android:Theme.Holo">
-        <item name="android:background">@color/pitch_black</item>
 
     </style>
 </resources>
