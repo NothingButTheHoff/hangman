@@ -16,11 +16,6 @@ I vurderingen legges det vekt på:
 
 
 
-## Status pr. 20. sept
-
-Appen er mer eller mindre ferdigstilt, men det gjenstår noen få bugfixes i tillegg til litt opprensing/forbedring av kode. Tastaturet er statisk programmert, og bør omprogrammeres til en mer dynamisk løsning.
-
-##Screendumps
-
+Se wiki for mer info!
 
 
