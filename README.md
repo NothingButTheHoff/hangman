@@ -16,6 +16,5 @@ I vurderingen legges det vekt på:
 
 
 
-Se wiki for mer info!
-
+[Se wiki for mer informasjon og screendumps] (https://github.com/NothingButTheHoff/hangman/wiki)
 
