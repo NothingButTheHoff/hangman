@@ -31,15 +31,13 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
 
         Locale locale = getResources().getConfiguration().locale;
 
-        if (locale.toString().equals("no")){
+        if (locale.toString().equals("no")) {
             view = inflater.inflate(R.layout.keyboard_no, container, false);
-        }
-        else{
+        } else {
             view = inflater.inflate(R.layout.keyboard, container, false);
         }
 
         Typeface font = Typeface.createFromAsset(getResources().getAssets(), "ComingSoon.ttf");
-
 
 
         Button b = (Button) view.findViewById(R.id.key1);
@@ -120,7 +118,7 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
         Button b26 = (Button) view.findViewById(R.id.key26);
         b26.setOnClickListener(this);
         b26.setTypeface(font);
-        if (locale.toString().equals("no")){
+        if (locale.toString().equals("no")) {
 
             Button b27 = (Button) view.findViewById(R.id.key27);
             b27.setOnClickListener(this);
@@ -155,18 +153,17 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
 
 
     //When user selects a letter from the keyboard, send it to the host activity
-    public void onKeyboardClick(String s, String id){
+    public void onKeyboardClick(String s, String id) {
 
         mCallback.onLetterSelected(s, id);
     }
-
 
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.key1:
-                onKeyboardClick("a","key1");
+                onKeyboardClick("a", "key1");
                 v.setEnabled(false);
                 break;
             case R.id.key2:
@@ -182,11 +179,11 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
                 v.setEnabled(false);
                 break;
             case R.id.key5:
-                onKeyboardClick("e","key5");
+                onKeyboardClick("e", "key5");
                 v.setEnabled(false);
                 break;
             case R.id.key6:
-                onKeyboardClick("f","key6");
+                onKeyboardClick("f", "key6");
                 v.setEnabled(false);
                 break;
             case R.id.key7:
@@ -194,55 +191,55 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
                 v.setEnabled(false);
                 break;
             case R.id.key8:
-                onKeyboardClick("h","key8");
+                onKeyboardClick("h", "key8");
                 v.setEnabled(false);
                 break;
             case R.id.key9:
-                onKeyboardClick("i","key9");
+                onKeyboardClick("i", "key9");
                 v.setEnabled(false);
                 break;
             case R.id.key10:
-                onKeyboardClick("j","key10");
+                onKeyboardClick("j", "key10");
                 v.setEnabled(false);
                 break;
             case R.id.key11:
-                onKeyboardClick("k","key11");
+                onKeyboardClick("k", "key11");
                 v.setEnabled(false);
                 break;
             case R.id.key12:
-                onKeyboardClick("l","key12");
+                onKeyboardClick("l", "key12");
                 v.setEnabled(false);
                 break;
             case R.id.key13:
-                onKeyboardClick("m","key13");
+                onKeyboardClick("m", "key13");
                 v.setEnabled(false);
                 break;
             case R.id.key14:
-                onKeyboardClick("n","key14");
+                onKeyboardClick("n", "key14");
                 v.setEnabled(false);
                 break;
             case R.id.key15:
-                onKeyboardClick("o","key15");
+                onKeyboardClick("o", "key15");
                 v.setEnabled(false);
                 break;
             case R.id.key16:
-                onKeyboardClick("p","key16");
+                onKeyboardClick("p", "key16");
                 v.setEnabled(false);
                 break;
             case R.id.key17:
-                onKeyboardClick("q","key17");
+                onKeyboardClick("q", "key17");
                 v.setEnabled(false);
                 break;
             case R.id.key18:
-                onKeyboardClick("r","key18");
+                onKeyboardClick("r", "key18");
                 v.setEnabled(false);
                 break;
             case R.id.key19:
-                onKeyboardClick("s","key19");
+                onKeyboardClick("s", "key19");
                 v.setEnabled(false);
                 break;
             case R.id.key20:
-                onKeyboardClick("t","key20");
+                onKeyboardClick("t", "key20");
                 v.setEnabled(false);
                 break;
             case R.id.key21:
@@ -250,43 +247,42 @@ public class KeyboardFragment extends Fragment implements OnClickListener {
                 v.setEnabled(false);
                 break;
             case R.id.key22:
-                onKeyboardClick("v","key22");
+                onKeyboardClick("v", "key22");
                 v.setEnabled(false);
                 break;
             case R.id.key23:
-                onKeyboardClick("w","key23");
+                onKeyboardClick("w", "key23");
                 v.setEnabled(false);
                 break;
             case R.id.key24:
-                onKeyboardClick("x","key24");
+                onKeyboardClick("x", "key24");
                 v.setEnabled(false);
                 break;
             case R.id.key25:
-                onKeyboardClick("y","key25");
+                onKeyboardClick("y", "key25");
                 v.setEnabled(false);
                 break;
             case R.id.key26:
-                onKeyboardClick("z","key26");
+                onKeyboardClick("z", "key26");
                 v.setEnabled(false);
                 break;
             case R.id.key27:
-                onKeyboardClick("æ","key27");
+                onKeyboardClick("æ", "key27");
                 v.setEnabled(false);
                 break;
             case R.id.key28:
-                onKeyboardClick("ø","key28");
+                onKeyboardClick("ø", "key28");
                 v.setEnabled(false);
 
                 break;
             case R.id.key29:
-                onKeyboardClick("å","key29");
+                onKeyboardClick("å", "key29");
                 v.setEnabled(false);
                 break;
 
 
         }
     } //end of switch
-
 
 
 }//end of class

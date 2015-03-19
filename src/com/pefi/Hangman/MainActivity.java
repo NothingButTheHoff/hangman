@@ -27,7 +27,6 @@ public class MainActivity extends Activity {
     int cat;
 
 
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +34,7 @@ public class MainActivity extends Activity {
         intent = getIntent();
         lang = intent.getStringExtra("lang");
         cat = intent.getIntExtra("cat", 4);
-        if (lang != null){
+        if (lang != null) {
             locale = new Locale(lang);
             config = new Configuration();
             config.locale = locale; //assign variable to be sent with intent
@@ -50,7 +49,7 @@ public class MainActivity extends Activity {
         Typeface font = Typeface.createFromAsset(getAssets(), "ComingSoon.ttf");
 
         //get Buttons
-        Button b  = (Button) findViewById(R.id.button_start);
+        Button b = (Button) findViewById(R.id.button_start);
         Button b1 = (Button) findViewById(R.id.button_rules);
         Button b2 = (Button) findViewById(R.id.button_settings);
         Button b3 = (Button) findViewById(R.id.button_exit);
@@ -73,7 +72,7 @@ public class MainActivity extends Activity {
         overridePendingTransition(R.anim.right_in, R.anim.left_out);
     }
 
-    public void showRules(View view){
+    public void showRules(View view) {
         new AlertDialog.Builder(this)
                 .setTitle(R.string.rules_button)
                 .setMessage(R.string.rules)
@@ -95,7 +94,6 @@ public class MainActivity extends Activity {
         //animated transitions
         overridePendingTransition(R.anim.bottom_in, R.anim.top_out);
     }
-
 
 
     public void killApp(View view) {

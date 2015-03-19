@@ -1,81 +1,81 @@
 <!-- KEYBOARD FOR PORTRAIT MODE-->
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-     xmlns:tools="http://schemas.android.com/tools"
-     android:id="@+id/keyboard2"
-     android:layout_width="match_parent"
-     android:layout_height="match_parent"
-     android:stretchColumns="*"
-     android:weightSum="0" android:measureWithLargestChild="false" android:background="#111111">
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/keyboard2"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:stretchColumns="*"
+             android:weightSum="0" android:measureWithLargestChild="false" android:background="#111111">
 
     <TableRow
-        android:id="@+id/row1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+            android:id="@+id/row1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="A"
-            android:tag="1"
-            android:id="@+id/key1"
-            android:layout_weight="1"
-            android:clickable="false" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="A"
+                android:tag="1"
+                android:id="@+id/key1"
+                android:layout_weight="1"
+                android:clickable="false" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="B"
-            android:tag="2"
-            android:id="@+id/key2"
-            android:layout_weight="1"
-            android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="B"
+                android:tag="2"
+                android:id="@+id/key2"
+                android:layout_weight="1"
+                android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="C"
-            android:tag="3"
-            android:id="@+id/key3"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="C"
+                android:tag="3"
+                android:id="@+id/key3"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="D"
-            android:tag="4"
-            android:id="@+id/key4"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="D"
+                android:tag="4"
+                android:id="@+id/key4"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="E"
-            android:tag="5"
-            android:id="@+id/key5"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="E"
+                android:tag="5"
+                android:id="@+id/key5"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:layout_weight="1"
-            android:tag="6"
-            android:id="@+id/key6"
-            android:text="F" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:layout_weight="1"
+                android:tag="6"
+                android:id="@+id/key6"
+                android:text="F" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="G"
-            android:tag="7"
-            android:id="@+id/key7"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="G"
+                android:tag="7"
+                android:id="@+id/key7"
+                android:layout_weight="1" android:layout_margin="4dp"/>
     </TableRow>
 
 
@@ -85,127 +85,127 @@
             android:layout_height="fill_parent">
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="H"
-            android:tag="8"
-            android:id="@+id/key8"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="H"
+                android:tag="8"
+                android:id="@+id/key8"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="I"
-            android:tag="9"
-            android:id="@+id/key9"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="I"
+                android:tag="9"
+                android:id="@+id/key9"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="J"
-            android:id="@+id/key10"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="J"
+                android:id="@+id/key10"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="K"
-            android:id="@+id/key11"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="K"
+                android:id="@+id/key11"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="L"
-            android:id="@+id/key12"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="L"
+                android:id="@+id/key12"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="M"
-            android:id="@+id/key13"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="M"
+                android:id="@+id/key13"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="N"
-            android:id="@+id/key14"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="N"
+                android:id="@+id/key14"
+                android:layout_weight="1" android:layout_margin="4dp"/>
     </TableRow>
 
 
     <TableRow
-        android:id="@+id/row3"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+            android:id="@+id/row3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="O"
-            android:id="@+id/key15"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="O"
+                android:id="@+id/key15"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="P"
-            android:id="@+id/key16"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="P"
+                android:id="@+id/key16"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="Q"
-            android:id="@+id/key17"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="Q"
+                android:id="@+id/key17"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="R"
-            android:id="@+id/key18"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="R"
+                android:id="@+id/key18"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="S"
-            android:id="@+id/key19"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="S"
+                android:id="@+id/key19"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="T"
-            android:id="@+id/key20"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="T"
+                android:id="@+id/key20"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="U"
-            android:id="@+id/key21"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="U"
+                android:id="@+id/key21"
+                android:layout_weight="1" android:layout_margin="4dp"/>
     </TableRow>
 
 
@@ -215,68 +215,68 @@
             android:layout_height="fill_parent">
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="V"
-            android:id="@+id/key22"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="V"
+                android:id="@+id/key22"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="W"
-            android:id="@+id/key23"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="W"
+                android:id="@+id/key23"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="X"
-            android:id="@+id/key24"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="X"
+                android:id="@+id/key24"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="Y"
-            android:id="@+id/key25"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="Y"
+                android:id="@+id/key25"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="Z"
-            android:id="@+id/key26"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="Z"
+                android:id="@+id/key26"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="Æ"
-            android:id="@+id/key27"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="Æ"
+                android:id="@+id/key27"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="Ø"
-            android:id="@+id/key28"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="Ø"
+                android:id="@+id/key28"
+                android:layout_weight="1" android:layout_margin="4dp"/>
 
         <Button
-            android:layout_width="20dp"
-            android:layout_height="40dp"
-            android:background="@drawable/button"
-            android:text="Å"
-            android:id="@+id/key29"
-            android:layout_weight="1" android:layout_margin="4dp"/>
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:text="Å"
+                android:id="@+id/key29"
+                android:layout_weight="1" android:layout_margin="4dp"/>
     </TableRow>
 
 </TableLayout>

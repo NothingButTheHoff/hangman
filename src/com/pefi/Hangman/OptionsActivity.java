@@ -32,7 +32,7 @@ public class OptionsActivity extends Activity {
     ArrayAdapter<String> categoryAdapter;
 
     //UI
-    Button b,b1,b2;
+    Button b, b1, b2;
 
     //passing data
     Intent intent;
@@ -44,7 +44,7 @@ public class OptionsActivity extends Activity {
         //get the selected language from the intent and set it
         intent = getIntent();
         lang = intent.getStringExtra("lang");
-        if (lang != null){
+        if (lang != null) {
             locale = new Locale(lang);
             config = new Configuration();
             config.locale = locale; //assign variable to be sent with intent
@@ -122,7 +122,6 @@ public class OptionsActivity extends Activity {
     }
 
 
-
     public void selectCategory(View v) {
         new AlertDialog.Builder(this)
                 .setAdapter(categoryAdapter, new DialogInterface.OnClickListener() {
@@ -156,10 +155,7 @@ public class OptionsActivity extends Activity {
     }
 
 
-
-
-
-    public void backToMenu(View v){
+    public void backToMenu(View v) {
         onBackPressed();
     }
 
@@ -173,7 +169,7 @@ public class OptionsActivity extends Activity {
         finish();
 
         //animated transition
-        overridePendingTransition( R.anim.top_in, R.anim.bottom_out);
+        overridePendingTransition(R.anim.top_in, R.anim.bottom_out);
     }
 
 } // end of class
