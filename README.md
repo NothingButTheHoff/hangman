@@ -14,7 +14,8 @@ I vurderingen legges det vekt på:
 - Dokumentasjon 20%
 
 
+![alt text](https://dl.dropboxusercontent.com/u/17132319/images/front.png "Screendump Hangman")
 
 
-[Se wiki for mer informasjon og screendumps] (https://github.com/NothingButTheHoff/hangman/wiki)
+[Se wiki for mer informasjon] (https://github.com/NothingButTheHoff/hangman/wiki)
 
